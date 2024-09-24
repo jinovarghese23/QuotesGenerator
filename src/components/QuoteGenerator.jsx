@@ -28,7 +28,7 @@ function QuoteGenerator() {
   return (
     <>
       <div className="container">
-        <h2 style={{textAlign:'center',color:'darkolivegreen'}}>Quotes Generator</h2>
+        <h2 style={{textAlign:'center'}}>Quotes Generator</h2>
         <hr />
         <div className="content">
           <div className="quote-content">
