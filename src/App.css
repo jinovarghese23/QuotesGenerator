@@ -1,0 +1,66 @@
+body{
+  background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  height:500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  width:500px;
+  background-color:transparent;
+  border-radius: 15px;
+  padding: 30px 30px 25px;
+  margin-top: 150px;
+  border:0px ;
+}
+.container .content{
+  margin: 35px 0;
+}
+.quote-content{
+  display: flex;
+  justify-content: center;
+
+}
+.quote-content i{
+font-size: 1rem;
+}
+.quote-content i:first-child{
+  margin: 3px 10px 0 0;
+}
+.quote-content i:last-child{
+  margin: 0 0 3px 10px;
+  display: flex;
+  align-items: flex-end;
+}
+.quote{
+  font-size: 1.35rem;
+  text-align: center;
+  word-break: break-all;
+  font-weight: 600;
+
+}
+.content .author{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-top: 1.25rem;
+}
+.author span:first-child{
+  margin: -7px 5px 0 0;
+  font-family: monospace;
+}
+.container .buttons{
+  border-top: 1px solid black;
+}
+.btn{
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 13px 22px;
+  border-radius: 30px;
+  margin-top: 5px;
+  margin-left:45%;
+}
