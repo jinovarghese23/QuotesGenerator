@@ -1,17 +1,27 @@
 body{
-  background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-  height:500px;
-  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  background: url("https://img.freepik.com/premium-photo/3d-glossy-holographic-notebook-reflective-table-concept-as-glossy-notebook-with-holographic-c_980716-667561.jpg?w=1060");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 .container{
-  width:200px;
-  background-color:;
+  width: 600px;
+  background-color:aliceblue;
   border-radius: 15px;
   padding: 30px 30px 25px;
-  margin-top: 150px;
-  border:0px ;
+  /* box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px; */
+}
+header{
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-align: center;
+  color:black;
+  /* box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px; */
 }
 .container .content{
   margin: 35px 0;
@@ -53,29 +63,27 @@ font-size: 1rem;
 .container .buttons{
   border-top: 1px solid black;
 }
-.btn{
-  border: none;
-  outline: none;
-  color: white;
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
   cursor: pointer;
-  font-size: 1rem;
-  padding: 13px 22px;
-  border-radius: 30px;
-  margin-top: 5px;
-  margin-left:45%;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+      margin-left:45%;
+    margin-top: 12px;
 }
-@media (min-width:1025px) and (orientation:landscape){
-.container{
-height:250px;
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
-}
-@media (max-width:1024px){
-  .container{
-  width:80%;
-  }
-  }
-  @media (max-width:768px){
-    .container{
-    height:auto;
-    }
-    }

@@ -28,23 +28,21 @@ function QuoteGenerator() {
   return (
     <>
       <div className="container">
-        <h2 style={{textAlign:'center'}}>Quotes Generator</h2>
-        <hr />
+        <header>Quotes Generator</header>
         <div className="content">
           <div className="quote-content">
             <i className="fa-solid fa-quote-left"></i>
-            <p className="quote text-light">{quote}</p>
+            <p className="quote">{quote}</p>
             <i className="fa-solid fa-quote-right"></i>
           </div>
-          <div className="author text-info">
-            
-            <p><span><i class="fa-solid fa-minus"></i></span> {author}</p>
-            
+          <div className="author">
+            <span>_</span>
+            <span className="author-name text-danger">{author}</span>
           </div>
         </div>
         <div className="buttons">
           <div className="features">
-            <button className='btn btn-success' onClick={randomQuote}>Next Quote</button>
+            <button className='button' onClick={randomQuote}>Refresh</button>
           </div>
         </div>
       </div>
