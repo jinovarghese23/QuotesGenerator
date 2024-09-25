@@ -6,8 +6,8 @@ body{
   background-size: cover;
 }
 .container{
-  width:500px;
-  background-color:transparent;
+  width:200px;
+  background-color:;
   border-radius: 15px;
   padding: 30px 30px 25px;
   margin-top: 150px;
@@ -64,3 +64,18 @@ font-size: 1rem;
   margin-top: 5px;
   margin-left:45%;
 }
+@media (min-width:1025px) and (orientation:landscape){
+.container{
+height:250px;
+}
+}
+@media (max-width:1024px){
+  .container{
+  width:80%;
+  }
+  }
+  @media (max-width:768px){
+    .container{
+    height:auto;
+    }
+    }
